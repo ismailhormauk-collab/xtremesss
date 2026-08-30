@@ -2,25 +2,106 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0b1220;
+
+  --color-brand-50: #eef2ff;
+  --color-brand-100: #e0e7ff;
+  --color-brand-200: #c7d4ff;
+  --color-brand-300: #a3b6fd;
+  --color-brand-400: #7690fa;
+  --color-brand-500: #4f6cf5;
+  --color-brand-600: #3457ea;
+  --color-brand-700: #2945c9;
+  --color-brand-800: #1f379e;
+  --color-brand-900: #1a2f7d;
+  --color-brand-950: #0f1c4d;
+
+  --color-ink: #0b1220;
+  --color-muted: #5b6472;
+  --color-muted-2: #7c8598;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f5f8ff;
+  --color-border-soft: #e3e9fb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-sans);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-50: var(--color-brand-50);
+  --color-brand-100: var(--color-brand-100);
+  --color-brand-200: var(--color-brand-200);
+  --color-brand-300: var(--color-brand-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-700: var(--color-brand-700);
+  --color-brand-800: var(--color-brand-800);
+  --color-brand-900: var(--color-brand-900);
+  --color-brand-950: var(--color-brand-950);
+
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --color-muted-2: var(--color-muted-2);
+  --color-surface: var(--color-surface);
+  --color-surface-soft: var(--color-surface-soft);
+  --color-border-soft: var(--color-border-soft);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Subtle blue grid background pattern used behind hero / CTA sections */
+.bg-grid-light {
+  background-image:
+    linear-gradient(to right, rgba(41, 87, 234, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(41, 87, 234, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.09) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.hero-gradient {
+  background: radial-gradient(120% 140% at 15% 0%, #4a6bf0 0%, #2c47cf 45%, #1c2f9e 100%);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out both;
+}
+
+.animate-fade-up-1 {
+  animation: fade-up 0.6s ease-out 0.08s both;
+}
+
+.animate-fade-up-2 {
+  animation: fade-up 0.6s ease-out 0.16s both;
+}
+
+.animate-fade-up-3 {
+  animation: fade-up 0.6s ease-out 0.24s both;
+}
+
+::selection {
+  background: var(--color-brand-200);
+  color: var(--color-brand-950);
 }
