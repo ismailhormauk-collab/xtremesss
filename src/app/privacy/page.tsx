@@ -5,7 +5,8 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Read the Xtreme HD IPTV privacy policy to understand how we collect, use and protect your information.",
+  description:
+    "Read how Xtreme HD IPTV collects, uses, and protects your personal information, including data from subscriptions, payments, and support requests.",
   alternates: { canonical: "/privacy" },
 };
 

@@ -7,9 +7,9 @@ import { LinkButton } from "@/components/ui/Button";
 import { siteConfig, whatsappLink, telegramLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV Support | Contact Us on WhatsApp & Telegram" },
+  title: { absolute: "IPTV Support & Setup Help | Xtreme HD IPTV" },
   description:
-    "Get Xtreme HD IPTV support for setup, technical issues, renewals and billing. Our team is available 24/7 via WhatsApp and Telegram.",
+    "Get help with IPTV setup, subscriptions, renewals, and technical issues from the Xtreme HD IPTV support team, available 24/7 via WhatsApp and Telegram.",
   alternates: { canonical: "/support" },
 };
 

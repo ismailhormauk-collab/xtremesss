@@ -8,9 +8,9 @@ import { fullFaqs } from "@/lib/faq";
 import { siteConfig, whatsappLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV FAQ | Frequently Asked Questions" },
+  title: { absolute: "IPTV FAQ – Subscription, Setup & Support" },
   description:
-    "Answers to common questions about Xtreme HD IPTV — devices, activation, support, sports channels, free trials and more.",
+    "Find answers to common questions about Xtreme HD IPTV, including device compatibility, activation, subscriptions, and customer support.",
   alternates: { canonical: "/faq" },
 };
 

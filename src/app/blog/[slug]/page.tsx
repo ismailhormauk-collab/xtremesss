@@ -24,12 +24,12 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: { absolute: post.seoTitle },
+    title: { absolute: post.title },
     description: post.metaDescription,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
       type: "article",
-      title: post.seoTitle,
+      title: post.title,
       description: post.metaDescription,
       url: `${siteConfig.url}/blog/${post.slug}`,
     },

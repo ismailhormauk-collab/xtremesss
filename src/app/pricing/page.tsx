@@ -10,9 +10,9 @@ import { MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV Pricing | Subscription Plans & Devices" },
+  title: { absolute: "IPTV Pricing & Subscription Plans | Xtreme HD IPTV" },
   description:
-    "Compare Xtreme HD IPTV pricing across 1, 2, 3 and 4 device plans. Choose 1, 3, 6 or 12 month subscriptions with instant activation and 50,000+ channels.",
+    "Compare IPTV subscription plans for 1 to 4 devices and choose the duration that fits your needs. View Xtreme HD IPTV pricing and available plan options.",
   alternates: { canonical: "/pricing" },
 };
 

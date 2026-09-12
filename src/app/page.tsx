@@ -10,9 +10,9 @@ import { CTASection } from "@/components/CTASection";
 import { homeFaqs } from "@/lib/faq";
 
 export const metadata: Metadata = {
-  title: "Xtreme HD IPTV | Premium Streaming Subscription",
+  title: "Xtreme HD IPTV – Premium IPTV Subscription",
   description:
-    "Explore Xtreme HD IPTV subscription plans with flexible device options, HD and 4K streaming, easy setup and dedicated customer support.",
+    "Explore Xtreme HD IPTV subscription plans with flexible options for multiple devices, HD and 4K streaming, and support for compatible devices.",
   alternates: { canonical: "/" },
 };
 

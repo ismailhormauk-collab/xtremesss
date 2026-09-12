@@ -7,9 +7,9 @@ import { BlogCard } from "@/components/blog/BlogCard";
 import { blogCategories, blogPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV Blog | Guides, Setup & Streaming Tips" },
+  title: { absolute: "IPTV Guides, Setup Tips & Streaming Advice" },
   description:
-    "IPTV guides, device setup tutorials and troubleshooting tips from the Xtreme HD IPTV team — everything you need for a smooth streaming experience.",
+    "Browse IPTV guides, device setup tutorials, and troubleshooting tips from the Xtreme HD IPTV team to help you get the most from your subscription.",
   alternates: { canonical: "/blog" },
 };
 

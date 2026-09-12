@@ -8,9 +8,9 @@ import { blogPosts } from "@/lib/blog";
 import { whatsappLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV Installation Guides | Set Up on Any Device" },
+  title: { absolute: "IPTV Installation Guide – Setup on Any Device" },
   description:
-    "Step-by-step Xtreme HD IPTV installation guides for Firestick, Smart TV, Android and more. Get your subscription set up quickly on any supported device.",
+    "Learn how to set up your IPTV service on Firestick, Smart TV, Android, iPhone, Apple TV, Windows, Mac and other compatible devices.",
   alternates: { canonical: "/installation" },
 };
 

@@ -15,11 +15,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Xtreme HD IPTV | Premium Streaming Subscription",
+    default: "Xtreme HD IPTV – Premium IPTV Subscription",
     template: "%s | Xtreme HD IPTV",
   },
   description:
-    "Explore Xtreme HD IPTV subscription plans with flexible device options, HD and 4K streaming, easy setup and dedicated customer support.",
+    "Explore Xtreme HD IPTV subscription plans with flexible options for multiple devices, HD and 4K streaming, and support for compatible devices.",
   keywords: [...siteConfig.keywords],
   alternates: {
     canonical: "/",
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
     type: "website",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: "Xtreme HD IPTV | Premium Streaming Subscription",
+    title: "Xtreme HD IPTV – Premium IPTV Subscription",
     description:
-      "Explore Xtreme HD IPTV subscription plans with flexible device options, HD and 4K streaming, easy setup and dedicated customer support.",
+      "Explore Xtreme HD IPTV subscription plans with flexible options for multiple devices, HD and 4K streaming, and support for compatible devices.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Xtreme HD IPTV | Premium Streaming Subscription",
+    title: "Xtreme HD IPTV – Premium IPTV Subscription",
     description:
-      "Explore Xtreme HD IPTV subscription plans with flexible device options, HD and 4K streaming, easy setup and dedicated customer support.",
+      "Explore Xtreme HD IPTV subscription plans with flexible options for multiple devices, HD and 4K streaming, and support for compatible devices.",
   },
   robots: {
     index: true,

@@ -5,7 +5,8 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Read the terms of service for using Xtreme HD IPTV subscriptions and related services.",
+  description:
+    "Review the terms of service for Xtreme HD IPTV, covering subscriptions, payments, acceptable use, and device compatibility before you sign up.",
   alternates: { canonical: "/terms" },
 };
 

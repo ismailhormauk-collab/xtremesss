@@ -8,9 +8,9 @@ import { FeatureCard } from "@/components/FeatureCard";
 import { whatsappLink, telegramLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Xtreme HD IPTV Reseller Program | Start Your Own IPTV Business" },
+  title: { absolute: "IPTV Reseller Program & Plans | Xtreme HD IPTV" },
   description:
-    "Become an Xtreme HD IPTV reseller. Get competitive reseller pricing, reliable infrastructure and dedicated support to start and grow your own IPTV business.",
+    "Start your own IPTV reseller business with Xtreme HD IPTV. Get competitive pricing, reliable infrastructure, and dedicated reseller support.",
   alternates: { canonical: "/reseller" },
 };
 

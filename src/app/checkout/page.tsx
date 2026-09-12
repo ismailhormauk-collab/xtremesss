@@ -12,8 +12,9 @@ import {
 } from "@/lib/pricing";
 
 export const metadata: Metadata = {
-  title: "Secure Checkout",
-  description: "Complete your Xtreme HD IPTV subscription order securely.",
+  title: "Complete Your IPTV Subscription",
+  description:
+    "Complete your Xtreme HD IPTV subscription order securely — confirm your plan, device count, and subscription duration before checkout.",
   robots: { index: false, follow: false },
 };
 
