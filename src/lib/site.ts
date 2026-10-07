@@ -19,6 +19,10 @@ export const siteConfig = {
     whatsappNumberIntl: "34613836698",
     telegramHandle: "@pulseiptv4k",
     telegramUrl: "https://t.me/pulseiptv4k",
+    // Dedicated number for pricing/order CTAs (Subscribe buttons, checkout).
+    // Opens a plain chat with no pre-filled message, by design.
+    orderWhatsappNumber: "+44 7456 061424",
+    orderWhatsappNumberIntl: "447456061424",
   },
   stats: {
     liveChannels: "50,000+",
@@ -41,4 +45,12 @@ export function whatsappLink(message?: string) {
 
 export function telegramLink() {
   return siteConfig.contact.telegramUrl;
+}
+
+/**
+ * Direct link for pricing/order CTAs. Deliberately takes no message
+ * argument — opens straight to the chat with no pre-filled text.
+ */
+export function orderWhatsappLink() {
+  return `https://wa.me/${siteConfig.contact.orderWhatsappNumberIntl}`;
 }

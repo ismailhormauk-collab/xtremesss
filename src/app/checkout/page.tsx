@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lock } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { CheckoutClient } from "@/components/checkout/CheckoutClient";
 import {
@@ -39,11 +39,11 @@ export default async function CheckoutPage({
       <Container className="max-w-5xl">
         <div className="mb-8 flex flex-col items-center gap-2 text-center sm:items-start sm:text-left">
           <span className="flex items-center gap-2 text-sm font-semibold text-brand-700">
-            <Lock className="h-4 w-4" aria-hidden />
-            256-bit SSL encrypted · Your data is always protected
+            <MessageCircle className="h-4 w-4" aria-hidden />
+            Fast, direct ordering — no forms required
           </span>
           <h1 className="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
-            Secure Checkout
+            Complete Your Order
           </h1>
         </div>
 
