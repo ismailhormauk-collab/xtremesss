@@ -46,7 +46,7 @@ export default function FaqPage() {
         <div className="mt-10 flex flex-col items-center gap-3 text-center">
           <p className="text-muted">Still have a question?</p>
           <LinkButton
-            href={whatsappLink("Hi! I have a question about Xtreme HD.")}
+            href={whatsappLink()}
             external
             variant="whatsapp"
             size="lg"

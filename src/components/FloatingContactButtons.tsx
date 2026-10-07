@@ -14,7 +14,7 @@ export function FloatingContactButtons() {
         <Send className="h-6 w-6 sm:h-7 sm:w-7" fill="white" aria-hidden />
       </a>
       <a
-        href={whatsappLink("Hi! I have a question about Xtreme HD.")}
+        href={whatsappLink()}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"

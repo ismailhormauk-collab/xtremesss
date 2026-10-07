@@ -59,7 +59,7 @@ export function DeviceCompatibility({ variant = "full" }: { variant?: "full" | "
         <p className="mt-8 text-center text-sm text-muted">
           Don&apos;t see your device?{" "}
           <a
-            href={whatsappLink("Hi! Is Xtreme HD compatible with my device?")}
+            href={whatsappLink()}
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-brand-700 underline underline-offset-4 hover:text-brand-800"

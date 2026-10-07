@@ -182,7 +182,7 @@ export default async function BlogArticlePage({
               View Plans
             </LinkButton>
             <LinkButton
-              href={whatsappLink("Hi! I have a question after reading your blog post.")}
+              href={whatsappLink()}
               external
               size="md"
               variant="whatsapp"

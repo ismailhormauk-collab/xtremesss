@@ -94,7 +94,7 @@ export default function PricingPage() {
               Not sure which plan to choose? Chat with us and we&apos;ll help you decide.
             </p>
             <LinkButton
-              href={whatsappLink("Hi! I'd like help choosing an Xtreme HD plan.")}
+              href={whatsappLink()}
               external
               size="lg"
               variant="whatsapp"

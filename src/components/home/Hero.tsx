@@ -37,7 +37,7 @@ export function Hero() {
               Subscribe Now
             </LinkButton>
             <LinkButton
-              href={whatsappLink("Hi! I'd like to start a free trial of Xtreme HD.")}
+              href={whatsappLink()}
               external
               size="lg"
               variant="outline"

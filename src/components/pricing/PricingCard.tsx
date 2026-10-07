@@ -3,7 +3,7 @@ import { clsx } from "clsx";
 import { LinkButton } from "@/components/ui/Button";
 import { includedFeatures } from "@/lib/pricing";
 import type { DeviceCount, PlanDefinition } from "@/lib/pricing";
-import { orderWhatsappLink } from "@/lib/site";
+import { whatsappLink } from "@/lib/site";
 
 export function PricingCard({
   plan,
@@ -63,7 +63,7 @@ export function PricingCard({
       </ul>
 
       <LinkButton
-        href={orderWhatsappLink()}
+        href={whatsappLink()}
         external
         size="lg"
         variant={plan.popular ? "primary" : "secondary"}

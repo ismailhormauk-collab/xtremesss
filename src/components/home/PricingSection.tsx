@@ -32,7 +32,7 @@ export function PricingSection() {
             plan.
           </p>
           <LinkButton
-            href={whatsappLink("Hi! I'd like help choosing an Xtreme HD plan.")}
+            href={whatsappLink()}
             external
             size="lg"
             variant="whatsapp"

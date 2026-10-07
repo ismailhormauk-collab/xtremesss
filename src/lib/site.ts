@@ -15,14 +15,10 @@ export const siteConfig = {
     "xtreme hd iptv installation",
   ],
   contact: {
-    whatsappNumber: "+34 613 836 698",
-    whatsappNumberIntl: "34613836698",
+    whatsappNumber: "+44 7456 061424",
+    whatsappNumberIntl: "447456061424",
     telegramHandle: "@pulseiptv4k",
     telegramUrl: "https://t.me/pulseiptv4k",
-    // Dedicated number for pricing/order CTAs (Subscribe buttons, checkout).
-    // Opens a plain chat with no pre-filled message, by design.
-    orderWhatsappNumber: "+44 7456 061424",
-    orderWhatsappNumberIntl: "447456061424",
   },
   stats: {
     liveChannels: "50,000+",
@@ -33,24 +29,15 @@ export const siteConfig = {
   },
 } as const;
 
-export function whatsappLink(message?: string) {
-  const base = `https://wa.me/${siteConfig.contact.whatsappNumberIntl}`;
-  if (!message) return base;
-  // encodeURIComponent leaves "+" unescaped, which some parsers read back as a
-  // space — escape it explicitly so literal "+" in message content (e.g. a
-  // customer's phone number) survives intact.
-  const encoded = encodeURIComponent(message).replace(/\+/g, "%2B");
-  return `${base}?text=${encoded}`;
+/**
+ * Direct WhatsApp chat link. Deliberately takes no message argument and
+ * never appends a query string — every WhatsApp CTA on the site must open
+ * straight to an empty chat with no pre-filled text.
+ */
+export function whatsappLink() {
+  return `https://wa.me/${siteConfig.contact.whatsappNumberIntl}`;
 }
 
 export function telegramLink() {
   return siteConfig.contact.telegramUrl;
-}
-
-/**
- * Direct link for pricing/order CTAs. Deliberately takes no message
- * argument — opens straight to the chat with no pre-filled text.
- */
-export function orderWhatsappLink() {
-  return `https://wa.me/${siteConfig.contact.orderWhatsappNumberIntl}`;
 }

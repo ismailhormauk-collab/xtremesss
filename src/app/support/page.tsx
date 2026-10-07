@@ -51,7 +51,7 @@ export default function SupportPage() {
               icon={MessageCircle}
               title="WhatsApp Support"
               value={siteConfig.contact.whatsappNumber}
-              href={whatsappLink("Hi! I need help with Xtreme HD.")}
+              href={whatsappLink()}
               buttonLabel="Open WhatsApp Chat"
               variant="whatsapp"
             />
@@ -107,7 +107,7 @@ export default function SupportPage() {
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <LinkButton
-                href={whatsappLink("Hi! I need help with Xtreme HD.")}
+                href={whatsappLink()}
                 external
                 size="lg"
                 variant="whatsapp"

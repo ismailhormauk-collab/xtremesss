@@ -71,7 +71,7 @@ export default function ResellerPage() {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <LinkButton
-              href={whatsappLink("Hi! I'd like to become an Xtreme HD reseller.")}
+              href={whatsappLink()}
               external
               size="lg"
               variant="whatsapp"
@@ -131,7 +131,7 @@ export default function ResellerPage() {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <LinkButton
-              href={whatsappLink("Hi! I'd like to become an Xtreme HD reseller.")}
+              href={whatsappLink()}
               external
               size="lg"
               variant="whatsapp"

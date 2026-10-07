@@ -70,5 +70,5 @@ export function FAQSection({
 }
 
 export function faqWhatsappHelpLink() {
-  return whatsappLink("Hi! I have a question about Xtreme HD.");
+  return whatsappLink();
 }

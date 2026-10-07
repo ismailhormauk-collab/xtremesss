@@ -17,7 +17,7 @@ export function CTASection() {
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
           <LinkButton
-            href={whatsappLink("Hi! I'd like to get started with Xtreme HD.")}
+            href={whatsappLink()}
             external
             size="lg"
             variant="whatsapp"

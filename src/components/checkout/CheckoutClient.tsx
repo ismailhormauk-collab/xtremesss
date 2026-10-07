@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowLeft, MessageCircle, ShieldCheck, Zap, Check, type LucideIcon } from "lucide-react";
 import { LinkButton } from "@/components/ui/Button";
 import { includedFeatures, type DeviceCount, type PlanDefinition } from "@/lib/pricing";
-import { orderWhatsappLink } from "@/lib/site";
+import { whatsappLink } from "@/lib/site";
 
 export function CheckoutClient({
   plan,
@@ -31,7 +31,7 @@ export function CheckoutClient({
           </div>
 
           <LinkButton
-            href={orderWhatsappLink()}
+            href={whatsappLink()}
             external
             size="lg"
             variant="whatsapp"

@@ -60,7 +60,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <LinkButton
-            href={whatsappLink("Hi! I'd like to start a free trial of Xtreme HD.")}
+            href={whatsappLink()}
             external
             size="md"
             icon={<Sparkles className="h-4 w-4" aria-hidden />}
@@ -100,7 +100,7 @@ export function Header() {
             </Link>
           ))}
           <LinkButton
-            href={whatsappLink("Hi! I'd like to start a free trial of Xtreme HD.")}
+            href={whatsappLink()}
             external
             size="md"
             className="mt-2 w-full"

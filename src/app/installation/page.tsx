@@ -101,7 +101,7 @@ export default function InstallationPage() {
             Our support team can walk you through installation on your specific device.
           </p>
           <LinkButton
-            href={whatsappLink("Hi! I need help installing Xtreme HD on my device.")}
+            href={whatsappLink()}
             external
             variant="whatsapp"
             size="lg"
