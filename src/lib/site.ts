@@ -15,8 +15,8 @@ export const siteConfig = {
     "xtreme hd iptv installation",
   ],
   contact: {
-    whatsappNumber: "+44 7456 061424",
-    whatsappNumberIntl: "447456061424",
+    whatsappNumber: "+34 613 836 698",
+    whatsappNumberIntl: "34613836698",
     telegramHandle: "@pulseiptv4k",
     telegramUrl: "https://t.me/pulseiptv4k",
   },
